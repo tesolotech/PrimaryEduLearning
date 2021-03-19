@@ -1,0 +1,19 @@
+html body{
+	background-color: #FFA07A;
+	-webkit-user-select: none; 
+}
+
+.col-lg-2{
+	text-align: center;
+	margin-top: 10px;
+}
+.col-lg-2 p{
+	font-size: 15px;
+	font-weight: bolder;
+	color: black;
+}
+.col-lg-2 a p:hover{
+		background-color: #E6E6FA;
+		font-size: 18px;
+		border-radius: 3px;
+}

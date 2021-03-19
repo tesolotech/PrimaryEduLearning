@@ -1,0 +1,82 @@
+#background{
+	             position: fixed;
+
+              top: 50%;
+
+              left: 50%;
+
+              min-width: 100%;
+
+              min-height: 100%;
+
+              width: auto;
+
+              height: auto;
+
+              z-index: -100;
+
+              -webkit-transform: translateX(-50%) translateY(-50%);
+
+              transform: translateX(-50%) translateY(-50%);
+
+              background: url(polina.jpg) no-repeat;
+
+                background-size: cover;
+
+              }
+html body{
+		-webkit-user-select: none; 
+}
+ 
+nav header{
+  background-color: green;
+  height: 65px;
+  opacity: 0.9;
+}
+nav header > ul{
+  margin: 2px;
+}
+nav header > ul li{
+  margin-top: 5px;
+  border-style: dotted solid;
+  border-color: white;
+  border-width: 4px;
+
+}
+nav li a{
+  text-decoration:none;
+  font-family: sans-serif;
+  text-shadow: 1px 1px white;
+  font-weight: 100;
+  color: white;
+  font-size: 20px;
+}
+nav li{
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  padding: 10px;
+}
+ul .sub-menu{
+  position: absolute;
+  width: 140px;
+  background-color: white;
+ padding: 10px;
+ padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0.1p 0.1p 10px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  z-index: 10;
+ 
+}
+ul .sub-menu li{
+  margin-bottom: 0px;
+  position: relative;
+}
+ul .sub-menu li a{
+  color: black;
+  text-decoration:none;
+}
+ul .nav-right{
+  float: right;
+}

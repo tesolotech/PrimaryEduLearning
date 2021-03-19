@@ -1,0 +1,111 @@
+html body{
+	-webkit-user-select: none; 
+}
+.col-lg-4{
+  position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   border-style: solid;
+   border-top-width: 30px;
+   border-bottom-width: 30px;
+   border-left-width: 10px;
+   border-right-width: 10px;
+   border: 0px 0px 0px 0px solid transparent;
+   border-image: linear-gradient(45deg,#ff0,#f0f,#f00,#00f);
+   border-image-slice: 1;
+   border-style: 0 15px 25px rgba(0,0,0,.2);
+   opacity: .8;
+  }
+  
+  #i1{
+	margin-top: 5px;
+	font-family: yellow serif;
+	color: green;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px yellow;
+	background-color: #FF1493;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+#i2{
+	font-family: yellow serif;
+	color: black;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px yellow;
+	margin-top: 5px;
+	background-color: #F5F5DC;
+	border-radius: 20px;
+	padding-left: 10px;
+}
+#i3{
+	margin-top: 5px;
+	font-family: yellow serif;
+	color: black;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px red;
+	background-color: 	#0000FF;
+	border-radius: 20px;
+	padding-left: 10px;
+	letter-spacing: 5px;
+	word-spacing: 2px;
+}
+#i4{
+	margin-top: 5px;
+	font-family: red serif;
+	color: black;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px white;
+	background-color: #7FFF00;
+	border-radius: 20px;
+	padding-left: 10px;
+	letter-spacing: 5px;
+	word-spacing: 2px;
+}
+#i5{
+	margin-top: 5px;
+	font-family: yellow serif;
+	color: black;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px yellow;
+	background-color: #00FFFF;
+	border-radius: 20px;
+	padding-left: 10px;
+	word-spacing: 2px;
+	letter-spacing: 3px;
+
+}
+#i6{
+	margin-top: 5px;
+	font-family: yellow serif;
+	color: black;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px yellow;
+	background-color: #F5F5DC;
+	border-radius: 20px;
+	padding-left: 10px;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+
+}
+#i7{
+	margin-top: 5px;
+	font-family: yellow serif;
+	color: brown;
+	font-style: bold;
+	font-size: 35px;
+	text-shadow: 2px 3px yellow;
+	background-color: #2F4F4F;
+	border-radius: 20px;
+	padding-left: 10px;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+
+}

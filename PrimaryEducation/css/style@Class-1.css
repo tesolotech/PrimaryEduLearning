@@ -1,0 +1,58 @@
+html body{
+		-webkit-user-select: none; 
+}
+
+#background{
+	             position: fixed;top: 50%;left: 50%; min-width: 100%; min-height: 100%;width: auto;
+
+              height: auto;z-index: -100;-webkit-transform: translateX(-50%) translateY(-50%);
+
+              transform: translateX(-50%) translateY(-50%);background: url(polina.jpg) no-repeat;
+
+                background-size: cover;
+           }
+
+
+.container-fluid{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 1px;
+	
+}
+.col-lg-2{
+	text-align: center;
+}
+.dropdown{
+	padding-bottom: 20px;
+}
+.col-container{
+	display: table;
+	 width: 100%;
+	 margin-top: 1px;
+}
+.col{
+	background:black; 
+	display: table-cell;
+	  text-align: center;
+}
+.col li{
+	list-style: none;
+}
+.col ul li:hover{
+	background-color: white;
+}
+img{
+	border-radius: 70px;
+	 padding-top:15px;
+	 padding-bottom: 10px;
+}
+.btn{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h2{
+	font-style: bold;
+	color: white;
+}

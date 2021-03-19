@@ -1,0 +1,116 @@
+/*	#background{
+	             position: fixed;top: 50%;left: 50%; min-width: 100%; min-height: 100%;width: auto;
+
+              height: auto;z-index: -100;-webkit-transform: translateX(-50%) translateY(-50%);
+
+              transform: translateX(-50%) translateY(-50%);background: url(polina.jpg) no-repeat;
+
+                background-size: cover;
+
+              } */
+   html,body{
+		   	background: linear-gradient(to top right, red, yellow);
+			-webkit-user-select: none; 
+
+   }
+   .btn .btn1{border-radius: 50%;}
+
+#btn1 #btn2{
+	border-radius: 50%;
+}
+#nav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+					.fa {
+ 						 padding: 20px;
+ 						 font-size: 25px;
+						  width: 60px;
+ 						 text-align: center;
+						  text-decoration: none;
+						  margin: 5px 2px;
+						  border-radius: 50%;
+					}
+
+				.fa:hover {
+  							  opacity: 1;
+							}
+
+				.fa-facebook {
+							  background: #3B5998;
+ 							 color: white;
+							}
+
+				.fa-twitter {
+							  background: #55ACEE;
+							  color: white;
+							}
+
+				.fa-google {
+ 							 background: #dd4b39;
+ 							 color: white;
+							}
+
+				.fa-linkedin {
+  							background: #007bb5;
+ 							 color: white;
+							}
+
+#p1{
+	font-size: 30px;
+	color: red;
+	text-align:center;
+	text-shadow: 5px 5px 10px blue;
+	font-style: bold;
+	font-family: sans-serif;
+}
+#p2{
+	font-style: bold;
+	text-align: center;
+	text-shadow: 5px 5px 10px red;
+	color: yellow;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+#p3{
+	font-size: 40px;
+	text-align: center;
+	text-shadow: 5px 5px 15px green;
+	color: black;
+	font-family: sans-serif;
+}
+#p4{
+	font-style: bold;
+	font-family: sans-serif;
+	color: red;
+	text-align: center;
+	text-shadow: 7px 7px 15px orange;
+	font-size: 30px;
+}
+#p5{
+	font-size: 45px;
+	font-family: sans-serif;
+	font-style: bold;
+	text-align: center;
+	text-shadow: 1px 7px 10px yellow;
+	color: black;
+}
+
+.Details{
+	text-align: center;
+	padding-top: 5px;
+	 background-color: none;
+}
+#text{
+	font-size: 21px;
+	font-style: solid bold;
+	color: blue;
+	font-family: sans-serif;
+}
+#footer{
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}
